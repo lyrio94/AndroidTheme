@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        O arquivo styles.xml deve conter apenas definições para componentes (widgets)
+        somente. Nenhum atributo de texto deve ser incluido nesse arquivo.
+    -->
+    <style name="ShapeAppearance.MaterialComponents.SmallComponent.AlunoOnLine">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MaterialComponents.MediumComponent.AlunoOnline">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MaterialComponents.LargeComponent.AlunoOnline">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Button.OutlinedButton.AlunoOnline">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="backgroundTint">@color/primary_background_btn_selector</item>
+        <item name="android:textColor">@color/brand_white</item>
+        <item name="rippleColor">#0000ff</item>
+    </style>
+    
+</resources>

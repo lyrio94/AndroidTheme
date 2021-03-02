@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        O arquivo type.xml armazena as informações de APARÊNCIA DE TEXTO (font, estilo),
+        tamanho de texto, dimensões, espaçamento de letras, etc.
+        Esse arquivo não deve conter informações de componentes (widgets).
+
+        Todas as definições desse arquivo não devem ser acessadas diretamente.
+        Deve-se configurar o tema para usar essas definições ou atribuir a
+        configurações de widgets no arquivo styles.xml.
+    -->
+
+    <style name="TextAppearance.MaterialComponents.Button.AlunoOnline">
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/manrope_extra_bold</item>
+        <item name="android:fontFamily">@font/manrope_extra_bold</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TextAppearance.MaterialComponents.Headline5.AlunoOnline">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MaterialComponents.Headline6.AlunoOnline">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MaterialComponents.Subtitle2.AlunoOnline">
+        <item name="fontFamily">@font/manrope_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.MaterialComponents.Body2.AlunoOnline">
+        <item name="fontFamily">@font/manrope_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+</resources>

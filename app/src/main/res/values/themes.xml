@@ -1,0 +1,127 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <!--
+        Temas são como interfaces para implementar estilos nos aplicativos.
+        Cada atributo deve ser "implementado" por alguma cor o "sub" estilo.
+
+        Use nomes consistentes para definir elementos de estilos seguindo a
+        regra abaixo:
+
+            Tipos: Theme, Widget, Text, Styles, TextAppearence, Shape, etc;
+            Grupo: AppName, IESBLight, ModuleName, etc;
+            Subgrupo: Grupo de componentes como Widget, Toolbar, Button, etc;
+            Variante: Variante de cores: Blue, Green, Dark, Light, etc;
+
+            Ex.:
+                Theme.IESBLight.Toolbar.DarkRed
+                Theme.IESBLight.Toolbar.Red
+
+                Widget.IESBLight.Button.DarkRed
+                Widget.IESBLight.Button.Red
+
+
+        Separe as informações em arquivos baseados na sua função:
+
+            1) themes.xml   => Arquivo para temas;
+            2) types.xml    => Arquivo para Aparência de texto, fonte, dimensões de texto, etc;
+            3) styles.xml   => Apenas componentes (Widgets);
+
+        Referências:
+
+            - https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+            - https://material.io/resources/color/#!/?view.left=0&view.right=1&primary.color=ff0100&secondary.color=9f0000&primary.text.color=000000
+
+     -->
+    <style name="Theme.AlunoOnlineLight" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!--
+            Primary brand color.
+            A cor primária é a cor mais usada nas telas e nos componentes do aplicativo,
+            ou seja, a cor predominante.
+        -->
+        <item name="colorPrimary">@color/brand_light_red</item>
+        <item name="colorPrimaryVariant">@color/brand_red</item>
+        <item name="colorOnPrimary">@color/brand_white</item>
+
+        <!--
+            Secondary brand color.
+            A cor secundária é a cor que apresenta destaque nas telas e nos componentes.
+            Geralmente é usada em botões flutuantes, Seleção de componentes como slides e switches,
+            barra de progresso, seleção de texto e links.
+        -->
+        <item name="colorSecondary">@color/brand_dark_red_1</item>
+        <item name="colorSecondaryVariant">@color/brand_dark_red_2</item>
+        <item name="colorOnSecondary">@color/brand_white</item>
+
+        <!--
+            Surface color são cores usadas em componentes como cards, menus e grades.
+        -->
+        <item name="colorSurface">@color/brand_white</item>
+        <item name="colorOnSurface">@color/brand_black</item>
+
+        <!--
+            Error color indica erro nos componentes como texto inválido em um campo de texto.
+        -->
+        <item name="colorError">@color/brand_dark_red_0</item>
+        <item name="colorOnError">@color/brand_white</item>
+
+        <!--
+            Background color é usada em componentes que rolagem como a ScrollView e Listas.
+        -->
+        <item name="backgroundColor">@color/brand_white</item>
+        <item name="colorOnBackground">@color/brand_black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+
+        <!--
+            Personalizações do aplicativo para atributos de temas existentes no Android.
+
+            Atributos de texto mais comuns e os valores padrão:
+
+                textAppearanceHeadline1: Light, 96sp
+                textAppearanceHeadline2: Light, 60sp
+                textAppearanceHeadline3: Regular, 48sp
+                textAppearanceHeadline4: Regular, 34sp
+                textAppearanceHeadline5: Regular, 24sp
+                textAppearanceHeadline6: Medium, 20sp
+                textAppearanceSubtitle1: Regular, 16sp
+                textAppearanceSubtitle2: Medium, 14sp
+                textAppearanceBody1: Regular, 16sp
+                textAppearanceBody2: Regular, 14sp
+                textAppearanceCaption: Regular, 12sp
+                textAppearanceButton: Regular, 14sp, all caps
+                textAppearanceOverline: Regular, 12sp, all caps
+        -->
+
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button.AlunoOnline</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5.AlunoOnline</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6.AlunoOnline</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2.AlunoOnline</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2.AlunoOnline</item>
+
+        <!--
+            Shapes:
+                shapeAppearanceSmallComponent: Para componentes de tamanho pequenos como Botões, Campos de Text, etc.
+                shapeAppearanceMediumComponent: Para componentes de tamanho médio como Cards
+                shapeAppearanceLargeComponent: Para componentes de tamanho grande como BottomSheets
+
+                https://material.io/blog/android-material-theme-shape
+        -->
+        <!--item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MaterialComponents.SmallComponent.AlunoOnLine</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent.AlunoOnline</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent.AlunoOnline</item-->
+
+
+        <!--
+            Atributos personalizados podem ser incluidos no arquivo attrs.xml.
+            Os atributos são referências para outros estilos no sistema, portanto,
+            serverm como "fachada" para as implementações do tema.
+        -->
+        <item name="logoImage">@drawable/iesb_red</item>
+        <item name="widgetDisableColor">@color/brand_light_gray_1</item>
+        <item name="primaryButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton.AlunoOnline</item>
+
+    </style>
+</resources>
