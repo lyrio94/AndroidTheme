@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="red_200">#FFFFCDD2</color>
+    <color name="red_500">#FFF44336</color>
+    <color name="red_700">#FFD32F2F</color>
+    <color name="purple_200">#FF9575CD</color>
+    <color name="purple_300">#FF9575CD</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_700">#FF2B2B2B</color>
+    <color name="gray_600">#FF2F2F2F</color>
+    <color name="gray_500">#FF303435</color>
+    <color name="gray_400">#FF4E5254</color>
+    <color name="gray_300">#FF9C9C9C</color>
     <color name="brand_dark_red_0">#870101</color>
     <color name="brand_dark_red_1">#FF9F0000</color>
     <color name="brand_dark_red_2">#C50101</color>
